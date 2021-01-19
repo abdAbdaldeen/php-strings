@@ -54,7 +54,7 @@
 <!-- Write a PHP script to replace the first 'the' of the following string with 'That'. Sample date : 'the quick brown fox jumps over the lazy dog.' Expected Result : That quick brown fox jumps over the lazy dog. -->
 <?php 
 //  $str = 'the quick brown fox jumps over the lazy dog.';
-//  echo str_replace( "the", 'That',$str);
+//  echo preg_replace('/the/', 'That', $str, 1);
 
 ?>
 <!-- Write a PHP script to find the first character that is different between two strings. String1 : 'football' String2 : 'footboll' Expected Result : First difference between two strings at position 5: "a" vs "o" -->
